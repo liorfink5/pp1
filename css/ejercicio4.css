@@ -1,0 +1,32 @@
+div {
+    width: 300px;
+    padding: 10px;
+}
+
+.caja1{
+    display: block;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.caja2{
+    display: block;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.caja3{
+    display: inline-block;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: black;
+}
+
+.caja4{
+    display: inline-block;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: black;
+}
