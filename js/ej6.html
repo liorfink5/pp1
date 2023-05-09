@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript">
+        function showEvent(event) {
+            console.log(event);
+        }
+    </script>
+</head>
+
+<body onmousedown="showEvent(event)">
+    <p onclick="showEvent(event)">Para ver los atributos del evento haga click en el texto</p>
+    <p>Este es un segundo párrafo que no tiene eventos propios</p>
+</body>
+
+</html>
